@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arbaini.drfauthretrofit.RegisterActivity">
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="396dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:layout_below="@+id/et_register_username"
+        android:layout_alignLeft="@+id/et_register_password"
+        android:layout_alignStart="@+id/et_register_password" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/et_register_password2"
+        android:layout_alignStart="@+id/et_register_password2" />
+
+    <EditText
+        android:id="@+id/et_register_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/et_register_password"
+        android:layout_alignLeft="@+id/et_register_username"
+        android:layout_alignStart="@+id/et_register_username" />
+</RelativeLayout>

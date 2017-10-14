@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arbaini.drfauthretrofit.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PK"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:id="@+id/tv_id_pk" />
+
+    <TextView
+        android:id="@+id/tv_id_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_id_pk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/tv_id_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_id_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/tv_id_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Token"
+        android:layout_below="@+id/tv_id_email"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
